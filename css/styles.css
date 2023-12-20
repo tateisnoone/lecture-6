@@ -1,0 +1,76 @@
+header {
+  padding: 20px 0;
+  background-color: cyan;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+.logo,
+nav {
+  display: inline-block;
+}
+
+.logo {
+  margin-right: 300px;
+  color: hotpink;
+  font-size: 30px;
+}
+li {
+  display: inline-block;
+  margin-right: 50px;
+}
+li a {
+  color: hotpink;
+  font-size: 24px;
+}
+.box1 {
+  margin-top: 72px;
+}
+
+.box {
+  width: 300px;
+  font-size: 24px;
+  border: 2px solid red;
+}
+
+.bigbox {
+  width: 500px;
+  height: 500px;
+  background-color: yellow;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  z-index: 5;
+}
+.smallbox {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(21, 255, 0);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 6;
+}
+.smallbox1 {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 7;
+}
+.smallbox2 {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+}
